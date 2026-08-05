@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhinav Sharma — Data Analyst</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#hero" class="nav-logo">Abhinav Sharma</a>
+
+      <!-- Hidden on desktop via CSS; shown below a max-width breakpoint.
+           aria-expanded is toggled by main.js and doubles as the hook
+           our CSS uses to animate the bars into an X. -->
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <!-- Hidden automatically by main.js if this file doesn't exist yet —
+           see the headshot error-handling block near the top of main.js. -->
+      <img
+        src="assets/images/headshot.jpg"
+        alt="Headshot of Abhinav Sharma"
+        class="headshot"
+        id="headshot"
+      />
+      <h1>Abhinav Sharma</h1>
+      <p class="tagline">Data Analyst</p>
+      <p class="hero-description">
+        I turn healthcare and market data into decisions — working with SQL,
+        Python, and BI dashboards to solve real-world problems.
+      </p>
+      <div class="hero-buttons">
+        <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+      <div class="hero-social">
+        <a href="https://github.com/AbhinavS-30" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/abhinav-sharma-mamgain" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+
+      <!-- Featured project cards get rendered here by main.js, from data/projects.json -->
+      <div id="featured-projects" class="featured-projects-grid"></div>
+
+      <div class="more-projects">
+        <h3>More on GitHub</h3>
+        <!-- Compact one-liner list of non-featured projects, rendered by main.js -->
+        <ul id="more-projects-list" class="more-projects-list"></ul>
+        <a
+          href="https://github.com/AbhinavS-30"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="view-all-link"
+        >View all projects on GitHub →</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About &amp; Experience</h2>
+
+      <p class="bio">
+        I'm a Data Analyst at HCL America in Charlotte, NC, working with healthcare IT
+        data — Omnicell medication dispensing systems and EPIC EHR records. I like turning
+        messy, real-world data into decisions people can act on, using SQL, Python, and BI
+        tools like Tableau and Power BI.
+      </p>
+
+      <h3>Experience</h3>
+      <!-- Work history, rendered by main.js from data/profile.json -->
+      <ol id="experience-timeline" class="timeline"></ol>
+
+      <h3>Education</h3>
+      <!-- Degrees, rendered by main.js from data/profile.json -->
+      <ul id="education-list" class="education-list"></ul>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <!-- Skill categories + tags, rendered by main.js from data/profile.json -->
+      <div id="skills-groups" class="skills-groups"></div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <h2>Contact</h2>
+    <p>Let's connect — I'm always happy to talk about data.</p>
+    <ul class="contact-links">
+      <li><a href="mailto:abhinav.302001@gmail.com">abhinav.302001@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/abhinav-sharma-mamgain" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="https://github.com/AbhinavS-30" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><a href="assets/resume.pdf" download>Download Resume</a></li>
+    </ul>
+    <p class="footer-note">&copy; 2026 Abhinav Sharma</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

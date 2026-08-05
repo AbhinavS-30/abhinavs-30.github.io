@@ -1,0 +1,82 @@
+{
+  "experience": [
+    {
+      "role": "Associate Consultant (Data Analyst)",
+      "company": "HCL America",
+      "location": "Charlotte, NC",
+      "startDate": "2026",
+      "endDate": "Present",
+      "description": "Analyze Omnicell medication dispensing and EPIC EHR data with SQL Server and Python for root cause analysis and KPI reporting; help build Tableau dashboards used by clinical, operations, and supply chain teams."
+    },
+    {
+      "role": "Data Analyst (Trainee)",
+      "company": "Quest Consulting",
+      "location": "Remote — Dallas, TX",
+      "startDate": "2025",
+      "endDate": "2026",
+      "description": "Cleaned and analyzed multi-source datasets with SQL, Python, and Excel, and built Power BI and Excel dashboards to track KPIs for cross-functional stakeholders."
+    },
+    {
+      "role": "Webmaster",
+      "company": "SHPE UNC Charlotte",
+      "location": "Charlotte, NC",
+      "startDate": "2024",
+      "endDate": "2025",
+      "description": "Maintained the chapter's website and backend systems, and analyzed user engagement data to build reports whose insights drove a 75% increase in monthly newsletter open rates."
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. in Computer Science",
+      "school": "UNC Charlotte",
+      "year": "2025"
+    },
+    {
+      "degree": "B.Tech",
+      "school": "DIT University",
+      "year": "2023"
+    }
+  ],
+  "skills": {
+    "SQL & Databases": [
+      "SQL (joins, window functions, CTEs, query optimization)",
+      "Microsoft SQL Server",
+      "MySQL"
+    ],
+    "Programming": [
+      "Python (pandas, NumPy, Matplotlib)",
+      "R"
+    ],
+    "Visualization & BI": [
+      "Tableau",
+      "Power BI (DAX)",
+      "Excel (Pivot Tables, VLOOKUP)",
+      "KPI Reporting",
+      "Dashboard Design"
+    ],
+    "Analytics & Statistics": [
+      "Exploratory Data Analysis",
+      "Hypothesis Testing",
+      "Regression",
+      "Clustering (K-Means)",
+      "Decision Trees",
+      "Root Cause Analysis",
+      "Forecasting"
+    ],
+    "Data Management": [
+      "ETL",
+      "Data Cleaning",
+      "Data Validation",
+      "Data Reconciliation",
+      "Data Integration"
+    ],
+    "Cloud & Tools": [
+      "AWS",
+      "Azure",
+      "Git/GitHub",
+      "SharePoint",
+      "SAP C4C",
+      "Agile/Scrum"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "credit-card-fraud-detection",
+    "title": "Credit Card Fraud Detection",
+    "description": "Compared five classification models — logistic regression, a shallow neural network, random forest, gradient boosting, and linear SVC — to flag fraudulent credit card transactions. Addressed severe class imbalance with oversampling/undersampling, improving F1-scores from ~0.6–0.7 to ~0.91–0.94.",
+    "tech": ["Python", "scikit-learn", "pandas", "NumPy"],
+    "imageUrl": "assets/images/fraud-f1-imbalanced-vs-balanced.png",
+    "imageAlt": "Grouped bar chart comparing F1-scores across five models on imbalanced vs. balanced data — every model improves substantially once the dataset is balanced",
+    "githubUrl": "https://github.com/AbhinavS-30/Credit-Card-Fraud-Detection",
+    "featured": true
+  },
+  {
+    "id": "new-york-taxi-analysis",
+    "title": "New York Taxi Analysis",
+    "description": "Explored and modeled NYC taxi trip records end-to-end — cleaning, temporal feature engineering (pickup hour, day of week, seasonality), and comparing Linear Regression, Decision Tree, and Random Forest with grid/randomized search and k-fold cross-validation. Random Forest generalized best, with the lowest test MSE and highest R².",
+    "tech": ["Python", "pandas", "scikit-learn"],
+    "imageUrl": "assets/images/taxi-predicted-vs-actual-fare.png",
+    "imageAlt": "Scatter plot comparing the model's predicted taxi fares to actual fares, showing a dense positive correlation along the diagonal",
+    "githubUrl": "https://github.com/AbhinavS-30/New-York-Taxi-Analysis",
+    "featured": true
+  },
+  {
+    "id": "boston-house-price-prediction",
+    "title": "End-to-End Regression Pipeline for Market Price Forecasting",
+    "description": "Built an end-to-end regression pipeline on the Boston housing dataset — EDA and preprocessing, feature scaling with StandardScaler, and a Linear Regression model — then deployed it behind a Flask web app for real-time price predictions, containerized with Docker.",
+    "tech": ["Python", "scikit-learn", "pandas", "Flask", "Docker"],
+    "imageUrl": "assets/images/boston-actual-vs-predicted-price.png",
+    "imageAlt": "Scatter plot of predicted vs. actual Boston housing prices, closely tracking the line of perfect prediction",
+    "githubUrl": "https://github.com/AbhinavS-30/Boston-House-Price-Prediction",
+    "featured": true
+  },
+  {
+    "id": "student-performance-indicator",
+    "title": "Student Performance Indicator",
+    "description": "Built a full ML pipeline — data ingestion, preprocessing (scaling + one-hot encoding), model training and evaluation, and versioned artifacts — to predict student math exam scores from demographic and academic features. Deployed as an interactive Flask web app.",
+    "tech": ["Python", "scikit-learn", "pandas", "Flask"],
+    "imageUrl": "assets/images/student-actual-vs-predicted-score.png",
+    "imageAlt": "Scatter plot with a fitted regression line showing predicted math scores closely tracking actual math scores",
+    "githubUrl": "https://github.com/AbhinavS-30/Student-Performance-Indicator",
+    "featured": true
+  },
+  {
+    "id": "real-estate-price-prediction",
+    "title": "Real Estate Price Prediction",
+    "description": "Linear regression model predicting Bangalore property prices from location, square footage, BHK count, and bathrooms, with outlier removal and one-hot encoding, served through a Flask + JavaScript web app.",
+    "tech": ["Python", "scikit-learn", "Flask"],
+    "imageUrl": "assets/images/placeholder.svg",
+    "imageAlt": "Placeholder graphic — a real chart is coming soon for this project",
+    "githubUrl": "https://github.com/AbhinavS-30/Real-Estate-Price-Prediction",
+    "featured": false
+  }
+]
